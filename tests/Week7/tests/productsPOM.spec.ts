@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
-import { HomePage } from './pages/HomePage';
-import { ProductPage } from './pages/ProductPage2';
-import { PRODUCTS } from './data/Products';
+import { HomePage } from '../pages/HomePage';
+import { ProductPage } from '../pages/ProductPage2';
+import { PRODUCTS } from '../data/Products';
 
 for (const product of PRODUCTS) {
   test(`browse to "${product.name}" and verify detail information`, async ({ page }) => {

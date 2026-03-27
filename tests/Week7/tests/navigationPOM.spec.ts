@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { NavigationPage } from './pages/NavigationPage';
+import { NavigationPage } from '../pages/NavigationPage';
 
 test.describe('Navigation with POM', () => {
   

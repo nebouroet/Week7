@@ -11,5 +11,9 @@ test.js
 test.py
 README.md
 .gitignore
-
+products.spec.ts
+navigation.spec.ts
+login.spec.ts
+exercise6.spec.ts
+exercise7.spec.ts
 
